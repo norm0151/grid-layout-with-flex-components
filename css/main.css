@@ -25,3 +25,26 @@ body {
 .icon {
   font-size: 4rem;
 }
+
+.emojis {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 15px;
+  padding: 0px 0px 0px 10px;
+  
+}
+
+.emoji {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icon {
+  order: -1;
+  align-self: center;
+}
+
+.emoji a {
+ align-content: flex-end;
+}
